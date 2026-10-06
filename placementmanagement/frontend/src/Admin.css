@@ -1,0 +1,135 @@
+.admin-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+
+.admin-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* .admin-form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+} */
+
+.admin-form h2 {
+    margin-bottom: 20px;
+     color: #0369a1;
+}
+
+.admin-form label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.admin-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.button-group {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.button-group button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+
+.save-btn {
+    background-color: #2563eb;
+}
+
+.update-btn {
+    background-color: #16a34a;
+}
+
+.get-btn {
+    background-color: #7c3aed;
+}
+
+.button-group button:hover {
+    opacity: 0.85;
+}
+
+.message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.admin-form {
+    background-color: #e0f2fe;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+}
+
+.admin-list {
+    background-color: #f3e8ff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.admin-list h2 {
+    margin-bottom: 20px;
+     color: #7e22ce;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f3f4f6;
+}
+
+.edit-btn,
+.delete-btn {
+    border: none;
+    padding: 7px 12px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.edit-btn {
+    background-color: #f59e0b;
+}
+
+.delete-btn {
+    background-color: #dc2626;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    opacity: 0.85;
+}
